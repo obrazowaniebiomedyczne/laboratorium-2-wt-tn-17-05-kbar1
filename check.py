@@ -1,10 +1,11 @@
 from solution import *
 from obpng import read_png, write_png
+from skimage import util, io, filters, morphology, data
 
-"""
 print("- Ocena dostateczna")
 renew_pictures()
-"""
+#write_png(image, 'results/1.png')
+
 
 """
 print("- Ocena dobra")
